@@ -16,6 +16,16 @@
     padding: 0;
     background-repeat: no-repeat;
     background-color: #000;
+    display: flex;
+    justify-content: center;
+}
+
+
+.mainframe {
+    background: url('./public/img/mainframe.png');
+    width: 944px;
+    height: 889px;
+    margin: auto;
 }
 
 
