@@ -7,6 +7,11 @@
   font-style: normal;
 }
 
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 .backgroundTest {
     background: url(./public/img/BG.jpg);
     font-size: 20px;
@@ -21,11 +26,23 @@
 }
 
 
+.vid {
+    max-height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+.vid video {
+    width: 100vw;
+
+}
+
 .mainframe {
     background: url('./public/img/mainframe.png');
     width: 944px;
     height: 889px;
     margin: auto;
+    position: absolute;
+    background: none;
 }
 
 
@@ -39,4 +56,5 @@ h1, h2, h3, h4, h5, h6, p {
 body {
     padding: 0;
     margin: 0;
+    background-color: transparent;
 }
