@@ -1,0 +1,25 @@
+{
+  "name": "LimerantMice-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "watch-http-server src -a 127.0.0.1 -p 8080",
+    "fmt": "prettier",
+    "tw": "tailwindcss -o ./src/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "packageManager": "pnpm@9.4.0",
+  "keywords": [],
+  "author": "LimerantMice",
+  "license": "ISC",
+  "description": "My silly website :P",
+  "devDependencies": {
+    "eslint": "^9.7.0",
+    "http-server": "^14.1.1",
+    "prettier": "^3.3.3",
+    "prettier-plugin-tailwindcss": "^0.6.5",
+    "tailwindcss": "^3.4.6",
+    "typescript": "^5.5.3",
+    "watch-http-server": "^0.7.6"
+  }
+}
