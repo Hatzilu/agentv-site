@@ -18,6 +18,22 @@
     z-index: -10;
 }
 
+.chat {
+    width: 600px;
+    min-height: 100%;
+    padding-inline-start: 60px;
+}
+.tvcat {
+    width: 190px;
+    min-height: 100%;
+    
+}
+.mainframe .upper {
+height: 175px;
+padding-top: 61px;
+display: flex;
+width: fit-content;
+}
 .backgroundTest {
     background: url(./public/img/BG.jpg);
     font-size: 20px;
